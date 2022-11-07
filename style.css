@@ -1,0 +1,319 @@
+/* css*/
+
+
+    #header {
+	background-color:  #024286;
+	height: 0px;	
+	color: white;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	
+	margin: 0;
+	}
+	
+	#header tr{
+	}
+	
+	#header td{
+	}
+	
+	#mainnav {
+	padding-top: 100px;
+	height: 70px;
+	background-color: #024286;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	margin-left: -8px;
+	margin-right: -315px;
+	
+
+	
+	}
+	
+	#mainnav button {
+	padding: 10px 15px;
+	border-radius: 5px 5px;
+	border: 1px solid white;
+	background-color: #024286;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	margin-left: 10px;
+	}
+	
+	#mainnav button.active {
+	background-color: white;
+	color: black;	
+	}
+	
+
+	#mainnav button:hover:not(.active) {
+	background-color: white;
+	color: black;
+	}
+	
+	
+	
+	#contents {
+	background-color: #f2f2f2;
+	padding: 15px;
+	height: 800px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	}
+	
+
+	
+	#boxcontent {
+	display: flex;
+	align-items: center;
+	width: 1870px;
+	height: 800px;
+	border: 1px solid black;
+	border-radius: 5px 5px;
+	background-color: white;
+	margin-left: -15px;
+	
+	
+	
+	}
+	
+	.agenda {
+	padding-left: 30px;
+	margin-left: 0px;
+	height: 50px;
+	width: 2100px;
+	background-color: #f2f2f2;
+	margin-top: -747px;
+	}
+	
+	#containerbuttom{
+	margin-top:-720px;
+	border-radius: 5px 5px;
+	border: 1px solid  #29a329;
+	height: 65px;
+	width: 580px;
+	margin-left: 650px;
+	text-align: center;
+	background-color:  #29a329;
+	color: white;
+	}
+
+	#containerbuttom1{
+	margin-top: 10px;
+	border-radius: 5px 5px;
+	border: 1px solid  #29a329;
+	height: 65px;
+	width: 580px;
+	margin-left: 650px;
+	text-align: center;
+	background-color:  #29a329;
+	color: white;
+	}
+	
+	#containerbuttom:hover{
+	background-color:  #196619;
+	}
+	
+	#containerbuttom1:hover{
+	background-color:  #196619;
+	}
+	
+	#informativo {
+	margin-top: 30px;
+	height: 340px;
+	width: 800px;
+	border: 1px solid   #c2efef;
+	border-radius: 5px 5px;
+	background-color:   #c2efef;
+	margin-left: 550px;
+	padding-left: 40px;
+	font-weight: bold;
+	color:  #258d8d;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	}
+	
+	
+	
+	#esclarecimentos{
+	height: 180px;
+	width: 800px;
+	border: 1px solid #cccc00;
+	border-radius: 5px 5px;	
+	margin-top: 10px;
+	margin-left: 550px;
+	background-color:   #e6e600;
+	color: #666600;
+	padding-left: 40px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	}
+	
+	
+	#footer {
+	padding: 1px;
+	padding-bottom: 10px;
+	font-family: 'Nunito', sans-serif;
+	background-color: #f2f2f2;
+	height: 75px;
+	text-align: center;
+	}
+	
+
+	/*tela consulta*/
+	
+	#contentsconsulta { 
+	background-color: #f2f2f2;
+	padding: 15px;
+	height: 500px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	}
+	
+	#boxcontentconsultar { 
+	display: flex;
+	align-items: center;
+	width: 1870px;
+	height: 500px;
+	border: 1px solid black;
+	border-radius: 5px 5px;
+	background-color: white;
+	margin-left:-5px;
+	}
+	
+	.consultar{ /* é onde está escrito consultar agendamento */
+	padding-left: 30px;
+	margin-left: 0px;
+	height: 50px;
+	width: 2100px;
+	background-color: #f2f2f2;
+	margin-top: -447px;		
+	}
+	
+	#boxconsulta { 
+	margin-top: -450px;
+	height: 350px;
+	width: 800px;
+	padding-left: 30px;	
+	}
+	
+	
+	#footerconsulta { 
+	font-family: 'Nunito', sans-serif;
+	background-color: #f2f2f2;
+	text-align: center;
+	}
+
+	/* tela informações*/
+	
+	.informacoes{ /* é onde está escrito consultar agendamento */
+	padding-left: 30px;
+	margin-left: 0px;
+	height: 50px;
+	width: 2100px;
+	background-color: #f2f2f2;	
+	margin-top: -990px;		
+	}
+	
+	#contentsinformacoes { 
+	background-color: #f2f2f2;
+	padding: 15px;
+	height: 800px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	}
+	
+	#boxcontentinformacoes { 
+	display: flex;
+	align-items: center;
+	width: 1870px;
+	height: 1050px;
+	border: 1px solid black;
+	border-radius: 5px 5px;
+	background-color: white;
+	margin-left: -15px;
+	
+	
+	}
+	
+	#footerinformacoes { 
+	font-family: 'Nunito', sans-serif;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding-bottom: 5px;
+	margin: 40px;
+	height: 75px;
+	margin-bottom: -60px;
+	}
+	
+	#containerinf{
+	margin-top: 30px;
+	border-radius: 5px 5px;
+	border: 1px solid  #cccccc;
+	height: 220px;
+	width: 1010px;
+	margin-left: 390px;
+	text-align: left;
+	padding: 20px;
+	color: #595959;
+	}
+	
+	#containerinf:hover{
+	background-color: #f2f2f2;		
+	}
+	
+	#containerinf2{
+	margin-top: 0px;
+	border-radius: 5px 5px;
+	border: 1px solid  #cccccc;
+	height: 240px;
+	width: 1010px;
+	margin-left: 390px;
+	text-align: left;
+	padding: 20px;
+	color: #595959;
+	}
+	
+	#containerinf2:hover{
+	background-color: #f2f2f2;		
+	}
+	
+	#containerinf3{
+	margin-top: 0px;
+	border-radius: 5px 5px;
+	border: 1px solid  #cccccc;
+	height: 120px;
+	width: 1010px;
+	margin-left: 390px;
+	text-align: left;
+	padding: 20px;
+	color: #595959;
+	}
+	
+	#containerinf3:hover{
+	background-color: #f2f2f2;		
+	}
+	
+	#containerinf4{
+	margin-top: 0px;
+	border-radius: 5px 5px;
+	border: 1px solid  #cccccc;
+	height: 200px;
+	width: 1010px;
+	margin-left: 390px;
+	text-align: left;
+	padding: 20px;
+	color: #666600;
+	background-color:  #ffe699;
+	}
+	
+	#containerinf4:hover{
+	background-color: #fff2cc;
+	}
+	
+	body {
+	background-color: #f2f2f2;
+    font-family: 'Nunito' sans-serif;
+	}

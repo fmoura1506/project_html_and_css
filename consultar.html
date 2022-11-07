@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+	<title> Consultar Agendamento Vacina COVID-19 | Secretaria Municipal de Saúde </title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	</head>
+
+	<body>
+	
+		<div id="container">
+		
+			<div id="header"> 
+			<br>
+				<table align="center">
+				<tr>
+				<td> <p> <b> Agendamento Vacina | Secretaria Municipal de Saúde </b> </p> </td>
+				</tr>
+				</table>
+			</div>
+			
+			<div id="mainnav"> 
+				<br>
+				<button class="mainav button" onclick="window.location.href='agendamento.html'"> Agendamento </button>
+				<button class="active"> Consultar </button>
+				<button class="mainav button" onclick="window.location.href='informacoes.html'""> Informações/Dúvidas </button>
+			</div>
+			
+			<div id="contentsconsulta"> 
+				<div id="boxcontentconsultar">
+					<div class="consultar">						
+						<p> Consultar Agendamento: </p>						
+					</div>
+				</div>
+					
+					<div id="boxconsulta">
+					
+					<p> Vamos consultar: </p>					
+					<p> Digite o CPF e Data de Nascimento de <b> quem será vacinado,</b> depois clique em "Consultar" <p>
+					
+					<label for="cpf"> CPF* </label> 
+					<br><br>
+					<input type="text" name="CPF" maxlength="11" placeholder="Digite seu CPF" style="width:180px; height: 25px; font-size:15px;" title=" Insira  seu  CPF sem  pontos  ou  traço">					
+					<p style="color: red"> O campo cpf é obrigatório <p>
+					
+					<label for="dn"> Data de Nascimento* </label>
+					<br><br>
+					<input type="date" name="Data de Nascimento" style="width:180px; height:25px; font-size:15px;">
+					<p style="color: red"> O campo Data de Nascimento é obrigatório <p>
+					
+					<button type="submit" style="background-color: #4da6ff; color: white; width:100px; height: 30px; font-size:15px; border-radius: 5px 5px; border: 1px solid"> Consultar </button>
+					
+					</div>
+					
+			</div>
+			
+			<div id="footerconsulta"> 
+			<p align="center" > <b>2021- Desenvolvido por: </b> Fernando Moura </p>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
