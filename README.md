@@ -1,1 +1,1 @@
-"# project_html_and_css" 
+Aplicação utilizando apenas os recursos de HTML e CSS. A aplicação simula como foi realizado o agendamento da vacina do Covid-19 no município de Itatiba/SP no ano de 2021. Todo o informativo utilizado na aplicação são apenas para fins de estudo e foram copiados da aplicação original.
